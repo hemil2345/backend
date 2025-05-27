@@ -20,7 +20,7 @@ PAYPAL_CLIENT_SECRET = os.getenv("PAYPAL_CLIENT_SECRET")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['3.89.143.79', 'ec2-3-89-143-79.compute-1.amazonaws.com']
+ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = True
 
 AUTHENTICATION_BACKENDS = [
