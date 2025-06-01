@@ -18,7 +18,12 @@ PAYPAL_CLIENT_SECRET = os.getenv("PAYPAL_CLIENT_SECRET")
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://18.219.110.195',
+]
 
 ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = True
