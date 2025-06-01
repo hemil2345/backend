@@ -20,7 +20,7 @@ python manage.py migrate
 python manage.py runserver
 
 
-http://127.0.0.1:8000/admin
+https://18.219.110.195/admin
 python manage.py createsuperuser
 
 
